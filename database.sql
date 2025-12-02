@@ -21,6 +21,9 @@ SET time_zone = "+00:00";
 -- Database: `billiard_bar`
 --
 
+CREATE DATABASE IF NOT EXISTS `billiard_bar`;
+USE `billiard_bar`;
+
 -- --------------------------------------------------------
 
 --
