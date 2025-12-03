@@ -13,14 +13,14 @@ function isAdmin() {
 
 function requireLogin() {
     if (!isLoggedIn()) {
-        header('Location: ../index.html');
+        header('Location: ../index.php');
         exit;
     }
 }
 
 function requireAdmin() {
     if (!isAdmin()) {
-        header('Location: ../index.html');
+        header('Location: ../index.php');
         exit;
     }
 }

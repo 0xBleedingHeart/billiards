@@ -227,6 +227,7 @@ document.addEventListener('DOMContentLoaded', function() {
                             const menuItem = document.createElement('div');
                             menuItem.className = 'menu-item';
                             menuItem.innerHTML = `
+                                <img src="${item.image_url}" alt="${item.name}" loading="lazy">
                                 <div class="item-header">
                                     <span class="item-name">${item.name}</span>
                                     <span class="item-price">$${item.price}</span>

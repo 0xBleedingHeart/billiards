@@ -31,7 +31,7 @@ $eventRegistrations = getUserEventRegistrations($_SESSION['user_id']);
         <div class="container">
             <div class="nav-container">
                 <ul class="nav-menu">
-                    <li><a href="../index.html">HOME</a></li>
+                    <li><a href="../index.php">HOME</a></li>
                     <li><a href="profile.php" class="active">MY PROFILE</a></li>
                     <li><a href="logout.php">LOGOUT</a></li>
                 </ul>

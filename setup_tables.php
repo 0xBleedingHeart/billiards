@@ -34,7 +34,7 @@ try {
     echo "✓ Event registrations table created<br>";
     
     echo "<br><strong>✓ All tables created successfully!</strong><br>";
-    echo "<a href='index.html'>Go to Homepage</a> | <a href='user/profile.php'>Go to Profile</a>";
+    echo "<a href='index.php'>Go to Homepage</a> | <a href='user/profile.php'>Go to Profile</a>";
     
 } catch(PDOException $e) {
     echo "✗ Error: " . $e->getMessage();

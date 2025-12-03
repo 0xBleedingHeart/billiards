@@ -752,3 +752,19 @@ footer {
         grid-template-columns: 1fr;
     }
 }
+/* Menu Item Images - Fix loading flash */
+.menu-item img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    display: block;
+    background-color: rgba(10, 15, 10, 0.5);
+    transition: opacity 0.3s ease;
+}
+
+.menu-item img:hover {
+    transform: scale(1.02);
+    opacity: 0.9;
+}
